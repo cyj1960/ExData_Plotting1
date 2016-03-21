@@ -25,3 +25,4 @@ legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), 
 
 plot(data$DateTime, data$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 
+dev.print(png, file="plot4.png", width=480, height=480)
